@@ -1,7 +1,11 @@
-import { useState } from "react";
+import React from "react";
 import "./App.css";
-import InputForm from "./components/Header";
 // import Header from "./components/Props";
+// import Usereducer from "./components/usereducer";
+// import Usereducerother from "./components/Usereducerother";
+// import UseEffect from "./components/UseEffect";
+import ReducerTodolist from "./components/ReducerTodolist";
+import ShoppingCart from "./components/useredShopping";
 function App() {
   // const [value, setValues] = useState(0);
   // const incrvalue = () => {
@@ -17,7 +21,13 @@ function App() {
       {/* <br />
       <br />
       <button onClick={decvalues}>-</button> */}
-      <InputForm />
+      {/* <Usereducer /> */}
+
+      {/* <Usereducerother /> */}
+      {/* <UseEffect />*/}
+      <ReducerTodolist />
+      <useredShopping />
+      <ShoppingCart />
     </div>
   );
 }
