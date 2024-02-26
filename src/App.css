@@ -1,0 +1,22 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #f0f2f5;
+}
+h1 {
+  text-align: center;
+  background-color: cadetblue;
+  margin: 0%;
+}
+
+.input {
+  text-align: center;
+  margin: 20px;
+  justify-content: center;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
